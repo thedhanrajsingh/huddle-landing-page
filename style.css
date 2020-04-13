@@ -1,0 +1,228 @@
+body {
+  font-family: "open sans", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header {
+  padding: 4%;
+}
+
+.image-logo {
+  width: 15%;
+}
+
+/* top container */
+.container1 {
+  background-color: hsl(193, 100%, 96%);
+  background-image: url("file:///C:/Users/freit/Desktop/coding%20challenges/huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-desktop.svg");
+  height: 600px;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+.try-button {
+  position: absolute;
+  right: 5%;
+}
+
+.title-image {
+  width: 44%;
+  position: relative;
+  top: 20px;
+}
+
+.title-text {
+  padding: 3% 5%;
+  width: 40%;
+  float: left;
+}
+
+/* container 2 (3 boxes) */
+.container2 {
+  width: 70%;
+  margin: 5% auto 5% auto;
+}
+
+.grow-together,
+.conversation,
+.users {
+  padding: 10% 7% 4%;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 4%;
+}
+
+.grow-image,
+.users-image {
+  float: right;
+}
+
+.grow-image,
+.conversation-image,
+.users-image {
+  width: 35%;
+}
+
+.conversation-image {
+  float: left;
+}
+
+.text-container2 {
+  width: 60%;
+}
+
+.text2-container2 {
+  position: relative;
+  left: 75px;
+  padding-right: 5%;
+}
+
+.get-started {
+  background-color: #fff;
+  position: relative;
+  top: 100px;
+  z-index: 1;
+  text-align: center;
+  padding: 3% 10%;
+  width: 25%;
+  margin: 0 auto 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* container 3 = bottom cointainer */
+
+.container3 {
+  height: 250px;
+  background-color: hsl(192, 100%, 9%);
+  color: #fff;
+  padding: 15% 5% 5%;
+}
+
+.huddle-bottom {
+  color: #fff;
+}
+.location,
+.about,
+.career,
+.social-media-logo,
+.Copyright {
+  width: 30%;
+  position: relative;
+  line-height: 1.5;
+}
+
+.about {
+  left: 500px;
+  top: -170px;
+}
+
+.career {
+  left: 700px;
+  top: -260px;
+}
+
+.social-media-logo {
+  top: -350px;
+  left: 900px;
+  word-spacing: 30px;
+}
+
+.fab {
+  font-size: 2rem;
+}
+.column2,
+.column3 {
+  list-style-type: none;
+}
+
+.contact-icon {
+  margin-right: 15px;
+}
+
+.Copyright {
+  top: -200px;
+  left: 905px;
+}
+
+/* Buttons */
+.cta {
+  background: linear-gradient(to bottom, #f00098 5%, #f00098 100%);
+  background-color: #f00098;
+  border-radius: 28px;
+  border: 1px solid #f00098;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 18px 75px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #f00098;
+  margin-top: 5%;
+}
+
+.cta:hover {
+  background: linear-gradient(to bottom, #f00098 5%, #f00098 100%);
+  background-color: #f00098;
+}
+
+.cta:active {
+  position: relative;
+  top: 1px;
+}
+
+.try-button {
+  background-color: #fff;
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 16px 55px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.try-button:hover {
+  background-color: #ffffff;
+}
+
+.try-button:active {
+  position: relative;
+  top: 1px;
+}
+/* pre built style */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #fff;
+  background-color: hsl(192, 100%, 9%);
+  margin: 0;
+}
+
+.attribution a {
+  color: orange;
+}
